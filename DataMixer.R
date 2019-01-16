@@ -1,6 +1,6 @@
 library(dplyr) # load dypr into library
 
-data <- read.csv("FallopiaData.csv") #load data
+data <- read.csv("InData.csv") #load data
 str(data)
 
 data <- filter(data, Total > 60) # remove rows with total biomass < 60
